@@ -1,0 +1,484 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<style>
+body{
+    background-color: #24262b;
+}
+.anounsment{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    font-family: arial;
+    color: white;
+    margin: 0px;
+    padding:0.5px;
+}
+.contact{
+    float: left;
+}
+.contact a{
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-family: arial;
+}
+.contact a:hover{
+    background-color: white;
+}
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 11%;
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+}
+.maindiv{
+  width: 70%;
+  height: 400px;
+  position: absolute;
+  margin-top: 580px;
+  margin-bottom: 20px;
+  margin-left: 210px;
+  border-radius: 20px;
+  background-image: url('Ammar456.jpg');
+  background-size: 100% 100%;
+  box-shadow: 1px 2px 9px 4px  white;
+  animation: slider 9s infinite linear;
+  border-style: solid;
+  border-color: #e91e63; 
+}
+
+@keyframes slider {
+  0%{ background-image: url('Ammar456.jpg');}
+
+  35%{ background-image: url('Ammar234.jpg');}
+
+  75%{ background-image: url('Ammar678.jpg');}
+}
+.card{
+  position: relative;
+  transition: 0.3s; 
+  cursor: pointer; 
+  background-color:#3586ff; 
+  width: 320px;
+  height: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 1060px; 
+  border-radius: 12px; 
+  float: right;
+  margin: 500px;
+  margin-right: 160px;
+  margin-left: -127px;
+  margin-bottom: 0px;
+  
+}
+.card1{
+  position: relative;
+  transition: 0.3s; 
+  cursor: pointer; 
+  background-color:#3586ff; 
+  width: 320px;
+  height: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 955px; 
+  border-radius: 12px; 
+  float: left;
+  margin: 500px;
+  margin-right: 0px;
+  margin-left: 165px;
+  margin-bottom: 0px;
+ 
+}
+.imgbox{
+  position: relative;
+  width: 200px;
+  height: 170px;
+  margin-top: -40px;
+  border-radius: 150px;
+  z-index: 99;
+  border-style: solid;
+  border-color: #e91e63; 
+  box-shadow: 1px 1px 11px 0.5px  black; 
+}
+.content{
+  margin-top: 200px;
+  text-align: left;
+  transform: translateY(-450px);
+  opacity: 0;
+  transition: 0.3s;
+}
+.card:hover{
+  height: 355px;
+  box-shadow: 1px 2px 9px 2px  black;
+}
+.card:hover > .content{
+  opacity: 1;
+  transform: translateY(-180px);
+}
+.card1:hover{
+  height: 355px;
+  box-shadow: 1px 2px 9px 2px  black;
+}
+.card1:hover > .content{
+  opacity: 1;
+  transform: translateY(-180px);
+}
+
+.emailheight{
+  margin-top: 1350px;
+  margin-left: 200px;
+  margin-right: 230px;
+  margin-bottom: 80px;
+}
+.email {
+  border-radius: 5px;
+  background-color: #3586ff;
+  padding: 10px;
+  font-family: arial;
+  border-style: solid;
+  border-color: #e91e63;
+}
+.email:hover{
+  box-shadow: 1px 2px 11px black;
+}
+input[type=text], select {
+  position: relative;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: arial;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.contain{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper{
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide img{
+  width: 100%;
+  height: 100%;
+}
+.swiper .swiper-button-prev, .swiper-button-next{
+  color: white;
+}
+.swiper .swiper-pagination-bullet-active{
+  background: white;
+}
+.main:hover{
+  box-shadow:  4px 4px 15px black; 
+}
+.ammar{
+  max-width: 1170px;
+  margin: auto;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.rows{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+  padding: 70px 0;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+  font-family: arial;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+  font-family: arial;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin: -2px 10px 10px 0;
+  text-align: center;
+  padding: 10px;
+  line-height: 40px;
+  border-radius: 60%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+</style>
+<body>
+<div class="anounsment">
+<p>Order Now</p></div>
+<hr style="width: 100%; border-color: #e91e63;"></hr>
+<ul style="background-color: #3586ff; list-style-type: none; margin: 0px; padding: 1px; overflow: hidden;">
+<div class="contact">
+  <div class="contact a">
+  <li class="contact"><img src="Ammar4.png" style="width: 70px; height: 70px; margin: 0px; padding: 0px;"></li>
+  <li class="contact"><a class="active" href="#home">Home</a></li>
+  <li class="contact"><a href="#news">News</a></li>
+  <li class="contact"><a href="#contact">Contact</a></li>
+  <li class="contact"><a href="#about">About</a></li>
+  </div>
+</div>
+</ul>
+<hr style="width: 100%; border-color: #e91e63;"></hr>
+<div class="container">
+  <img src="Ammar678.jpg" alt="Cinque Terre" width="1000" height="500px" style=" width: 100%; height: 700px;">
+  <div class="center">Arfa Softs</div>
+  <div style=" position: absolute; top: 12%; width: 100%; text-align: center; font-size: 22px;color: white; font-family: arial;">  Software engineers apply <br>engineering principles and<br> knowledge of programming languages<br> to build software solutions for end users<br> software engineers apply engineering principles<p></p>
+</div>
+<hr style="width: 100%; border-color: #e91e63;"></hr>
+<h1 style="font-family:arial; font-size: 28px; text-align: center; color: white; margin: 20px 0 10px 0;">A new adventure in <br>ice cream</h1>
+<p style="font-family:arial; font-size: 24px; text-align: center; color: white; margin-bottom: 20px;">we belive that simple nature food tastes best.<br>
+belive that simple nature food tastes best.belive<br>
+belive that simple nature <br>food tastes best.</p>
+
+<hr style="width: 100%; border-color: #e91e63;"></hr>
+
+<div class="main">
+  <div style="width: 390px; height: 515px; padding: 0px; margin: 20px; margin-right: 80px; margin-left: 27px; background-color: #3586ff; overflow: hidden; float: right; border-radius: 15px; box-shadow:  7px 7px 8px black;"> 
+    <img src="Ammar234.jpg" alt="Cinque Terre" width="400px" height="250px">
+    <h2 style="font-family: arial; font-weight: bold; text-align: left; color: white; padding: 10px; padding-top: 10px; padding-bottom: 0px; margin: 0px;">Arfa Softs</h2>
+    <hr style="width: 130px; border-color: #e91e63;"></hr>
+    <p style="font-family: arial; text-align: left; color: white; padding: 10px; padding-top: 1px; padding-bottom: 1px; margin: 0px;">Softwar engineers apply engineering principles and knowledge of programming languages to build software solutions for end users Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users Software engineers apply engineering principles</p>
+  </div>
+</div>
+  <div style="width: 390px; height: 515px; padding: 0px; margin: 20px; margin-right: -10px; margin-left: 10px; background-color: #3586ff; box-shadow:  7px 7px 8px black; overflow: hidden; float: right; border-radius: 15px;"> 
+    <img src="Ammar234.jpg" alt="Cinque Terre" width="400px" height="250px" border-radius="0px">
+    <h2 style="font-family: arial; font-weight: bold; text-align: left; color: white; padding: 10px; padding-top: 10px; padding-bottom: 0px; margin: 0px;">Arfa Softs</h2>
+    <hr style="width: 130px; border-color: #e91e63;"></hr>
+    <p style="font-family: arial; text-align: left; color: white; padding: 10px; padding-top: 1px; padding-bottom: 1px; margin: 0px;">Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users Software engineers apply engineering principles</p>
+  </div>
+  <div style="width: 390px; height: 515px; padding: 0px; margin: -535px; margin-right: 35px; margin-left: 65px; background-color: #3586ff; box-shadow:  7px 7px 8px black; overflow: hidden; float: left; border-radius: 15px;">
+    <img src="Ammar234.jpg" alt="Cinque Terre" width="400px" height="250px">
+    <h2 style="font-family: arial; font-weight: bold; text-align: left; color: white; padding: 10px; padding-top: 10px; padding-bottom: 0px; margin: 0px;">Arfa Softs</h2>
+    <hr style="width: 130px; border-color: #e91e63;"></hr>
+    <p style="font-family: arial; text-align: left; color: white; padding: 10px; padding-top: 1px; padding-bottom: 1px; margin: 0px;">Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users Software engineers apply engineering principles</p>
+  </div>
+
+<div class="maindiv">
+  <h2 style="font-family:arial; font-weight: bold; text-align: center; color: white; font-size: 30px; padding-top: 155px; padding-bottom: -4px;">Arfa Softs</h2>
+  <p style="font-family:arial; text-align: center; color: white; padding-top: -10px; padding-bottom: 30px;">Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users Software engineers apply engineering principles and knowledge of programming languages to build softwar</p>
+</div>
+
+<div class="card">
+<div class="imgbox">  
+  <img src="Ammar80.jpg" alt="ammar" style="width: 200px; height: 170px; margin-top: -10px; border-radius: 150px;">
+</div>
+<div class="content">  
+  <h1 style="font-family: arial; font-size: 25px; text-align: left; color: white; font-weight: bold; padding-top: 1px; padding-bottom: 0px; margin-top: 10px; margin-bottom: 0px;">Elon Musk</h1>
+  <h6 style="font-family: arial; margin-top: 1px; padding-top: 1px; text-align: left; color: white;">CEO Tesla</h6>
+  <h4 style="font-family: arial; margin-top: 1px; padding-top: 1px; text-align: left; color: white;"> Review of the latest book on Chaucer. A criticism is a judgment, usually in an article, either favorable or unfavorable or both: a criticism of a proposed plan.</h4>
+</div>
+</div>
+
+<div class="card">
+<div class="imgbox">
+  <img src="Ammar70.jpg" alt="ammar" style="width: 200px; height: 170px; margin-top: -10px; border-radius: 150px;">
+</div>
+<div class="content">
+  <h1 style="font-family: arial; font-size: 25px; text-align: left; color: white; font-weight: bold; padding-top: 1px; padding-bottom: 0px; margin-top: 10px; margin-bottom: 0px;">Valadiman Putin</h1>
+  <h6 style="font-family: arial; margin-top: 1px; padding-top: 1px; text-align: left; color: white;">CEO Al Hilal</h6>
+  <h4 style="font-family: arial; margin-top: 1px; padding-top: 1px; text-align: left; color: white;"> Review of the latest book on Chaucer. A criticism is a judgment, usually in an article, either favorable or unfavorable or both: a criticism of a proposed plan.</h4>
+</div>
+</div>
+
+<div class="card1">
+<div class="imgbox">
+  <img src="Ammar90.jpeg" alt="ammar" style="width: 200px; height: 170px; margin-top: -10px; border-radius: 150px;">
+</div>
+<div class="content">
+  <h1 style="font-family: arial; font-size: 25px; text-align: left; color: white; font-weight: bold; padding-top: 1px; padding-bottom: 0px; margin-top: 10px; margin-bottom: 0px;">Johanna</h1>
+  <h6 style="font-family: arial; margin-top: 1px; padding-top: 1px; text-align: left; color: white;">CEO Apple</h6>
+  <h4 style="font-family: arial; margin-top: 1px; padding-top: 1px; text-align: left; color: white;"> Review of the latest book on Chaucer. A criticism is a judgment, usually in an article, either favorable or unfavorable or both: a criticism of a proposed plan.</h4>
+</div>
+</div>
+
+
+<div class="emailheight">
+<div class="email">
+  <form action="/action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</div>
+<hr style="width: 100%; border-color: #e91e63;"></hr>
+<div class="contain">
+   <!-- Slider main container -->
+  <div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="Amma12.jpg"></div>
+    <div class="swiper-slide"><img src="Ammar13.jpg"></div>
+    <div class="swiper-slide"><img src="Ammar14.jpg"></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+  const swiper = new Swiper('.swiper', {
+     autoplay: {
+       delay: 3000,
+       disableOnInteraction: false,
+     },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+<hr style="width: 100%; border-color: #e91e63;"></hr>
+<footer class="footer">
+   <div class="ammar">
+      <div class="rows">
+         <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Affiliate Progarm</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h4>Get Help</h4>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Order Status</a></li>
+                <li><a href="#">Payment Option</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h4>Online Shop</h4>
+            <ul>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">Bags</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">Dress</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h4>Follow us</h4>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
+</body>
+</html>
